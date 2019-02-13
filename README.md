@@ -41,8 +41,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 <script>
 /*document.getElementById("text").innerHTML = "Text added";*/
   
-  var links = [1,2,4];
+  var links = ["Cucha", "Bombo", "Prueba"];
   var random = Math.floor(Math.random() * 3) + 1;
-  document.getElementById("text").innerHTML = random;
+  var element = links[random];
+  document.getElementById("text").innerHTML = element;
   
 </script>
