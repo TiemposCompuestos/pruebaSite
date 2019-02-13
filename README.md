@@ -42,7 +42,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 /*document.getElementById("text").innerHTML = "Text added";*/
   
   var links = ["Cucha", "Bombo", "Prueba"];
-  var random = Math.floor(Math.random() * 3) + 1;
+  var random = Math.floor(Math.random() * 3);
   var element = links[random];
   document.getElementById("text").innerHTML = element;
   
