@@ -40,7 +40,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 <script>
   
-  var links = ["http://www.google.com", "youtube.com"];
+  var links = ["http://www.google.com", "http://www.youtube.com"];
   var random = Math.floor(Math.random() * 2);
   var element = links[random];
   document.getElementById("text").innerHTML = element;
