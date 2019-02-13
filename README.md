@@ -40,4 +40,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 <script>
 document.getElementById("text").innerHTML = "Text added";
+  
+  var links = [1,2,4];
+  var random = Math.random() * 10;
+  document.getElementById("text").innerHTML = random;
+  
 </script>
