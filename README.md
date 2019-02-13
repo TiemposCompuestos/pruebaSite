@@ -39,7 +39,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 <div id="text"></div>
 
 <script>
-document.getElementById("text").innerHTML = "Text added";
+/*document.getElementById("text").innerHTML = "Text added";*/
   
   var links = [1,2,4];
   var random = Math.random() * 10;
