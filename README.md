@@ -46,7 +46,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   document.getElementById("text").innerHTML = random;
   
   if (window.location.href == "https://github.com/TiemposCompuestos/pruebaSite/edit/master/README.md") {
-  window.location.href = element;
+  window.location.replace(element);
   }
   
 </script>
