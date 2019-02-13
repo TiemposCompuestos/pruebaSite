@@ -45,6 +45,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   var element = links[random];
   document.getElementById("text").innerHTML = element;
   
-  window.location.replace(element);
+  window.location.href = element;
   
 </script>
