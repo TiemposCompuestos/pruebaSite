@@ -39,11 +39,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 <div id="text"></div>
 
 <script>
-/*document.getElementById("text").innerHTML = "Text added";*/
   
-  var links = ["Cucha", "Bombo", "Prueba"];
-  var random = Math.floor(Math.random() * 3);
+  var links = ["google.com", "youtube.com"];
+  var random = Math.floor(Math.random() * 2);
   var element = links[random];
   document.getElementById("text").innerHTML = element;
+  
+  if (window.location.href == "https://github.com/TiemposCompuestos/pruebaSite/edit/master/README.md") {
+  window.location.pathname = element
+  }
   
 </script>
