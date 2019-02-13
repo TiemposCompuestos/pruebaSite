@@ -42,7 +42,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 /*document.getElementById("text").innerHTML = "Text added";*/
   
   var links = [1,2,4];
-  var random = Math.random() * 10 / 3;
+  var random = Math.floor(Math.random() * 3) + 1;
   document.getElementById("text").innerHTML = random;
   
 </script>
