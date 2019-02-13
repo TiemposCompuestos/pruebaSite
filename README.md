@@ -40,13 +40,11 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 <script>
   
-  var links = ["google.com", "youtube.com"];
+  var links = ["http://www.google.com", "youtube.com"];
   var random = Math.floor(Math.random() * 2);
   var element = links[random];
-  document.getElementById("text").innerHTML = random;
+  document.getElementById("text").innerHTML = element;
   
-  if (window.location.href == "https://github.com/TiemposCompuestos/pruebaSite/edit/master/README.md") {
   window.location.replace(element);
-  }
   
 </script>
